@@ -1,3 +1,7 @@
+// write a function to display the time in the following format:
+// Today is: Tuesday.
+// Current time is: 10 PM : 30 : 38
+
 var today = new Date();
 var day = today.getDay();
 var dayList = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
