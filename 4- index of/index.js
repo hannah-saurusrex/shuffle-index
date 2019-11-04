@@ -16,6 +16,7 @@
 
 // given the string, print the second occurrence of the letter "t"; casing does not matter
 var sentence = "this is my test string!";
+
 var searchTerm = "t";
 var indexOfFirst = sentence.indexOf(searchTerm);
 
