@@ -1,4 +1,4 @@
-// given a string, print the second occurance of the letter "t"; letter case does not matter
+// given a string, print the second occurrence of the letter "t"; letter case does not matter
 
 // function myFunction() {
 //     var str = "this is my test string!";
@@ -14,8 +14,8 @@
 //     return index;
 // }
 
+// given the string, print the second occurrence of the letter "t"; casing does not matter
 var sentence = "this is my test string!";
-
 var searchTerm = "t";
 var indexOfFirst = sentence.indexOf(searchTerm);
 
