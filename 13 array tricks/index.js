@@ -78,17 +78,19 @@ const randColors = colors[(Math.floor(Math.random() * (colors.length)))];
 console.log(randColors);
 
 //shuffle the above colors array
-function shuffle(array) {
-    let counter = array.length;
-    while (counter > 0) {
-        let index = Math.floor(Math.random() * counter);
-        counter--; 
+function shufflle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
 
-        let temp = array[counter];
-        array[counter] = array[index];
-        array[index] = temp;
+    // while there are still values, shuffle
+    while (0 !== currentIndex) {
+        
+        //pick a remaining element
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        //now swap it with the current element
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
     }
-    return array;
 }
-
-shuffle();
