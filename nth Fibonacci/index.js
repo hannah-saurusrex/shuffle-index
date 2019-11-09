@@ -1,3 +1,6 @@
+// find the nth interation of the fibonacci sequence
+// fibonacci sequence 0, 1, 2, 3, 5, 8, 13, 21, 34
+
 const fib = (num) => {
     // initialize, or save first and second indexes
     var a = 0;
